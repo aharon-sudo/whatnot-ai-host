@@ -16,6 +16,7 @@ scripts/live_relay.py already running.
 """
 
 import asyncio
+import os
 import urllib.request
 
 from playwright.async_api import Page, async_playwright
@@ -25,7 +26,7 @@ from inventory.loader import load_inventory
 from obs_control.obs_client import ObsController
 
 RELAY_URL = "http://127.0.0.1:8765"
-LIVE_SHOW_URL = "https://www.whatnot.com/live/4fd1a0b4-4fa3-4ae4-a9c9-0988eb7f9fed"
+LIVE_SHOW_URL = os.environ.get("WHATNOT_LIVE_SHOW_URL", "")
 ROUND_SECONDS = 30
 CHAT_POLL_INTERVAL = 4
 
