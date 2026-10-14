@@ -1,0 +1,16 @@
+[
+  {
+    "image_path": "./inventory/photos/chain_01_gold.png",
+    "name": "European & American Hip-Hop Fashion Cuban Encrusted Necklace",
+    "starting_price": "$15",
+    "blurb": "Gold plated Cuban chain necklace, 16 inches, men's jewelry, great birthday gift.",
+    "obs_scene": "Gold Chain"
+  },
+  {
+    "image_path": "./inventory/photos/chain_02_silver.png",
+    "name": "3pc 304 Stainless Steel Cuban Chain Set",
+    "starting_price": "$12",
+    "blurb": "Necklace, bracelet, and ring combo in stainless steel, brand new, easy to wear daily.",
+    "obs_scene": "Silver Chain"
+  }
+]

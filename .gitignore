@@ -1,0 +1,11 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+*.log
+logs/
+whatnot_storage_state.json
+inventory/*.json
+!inventory/example_inventory.json
